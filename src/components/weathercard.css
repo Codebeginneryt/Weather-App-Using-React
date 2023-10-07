@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background: rgba(0,0,0,0.1) url('https://cdn.dribbble.com/users/498786/screenshots/10512253/media/e36d83faf1be80369e15732f1296ae93.png');
+    background-size: cover;
+    background-blend-mode: darken;
+}
+.card{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 500px;
+    width: 300px;
+    background:url('/public/img/day.jpg');
+    border-radius: 10px;
+    box-shadow: 0px 5px 10px -10px rgba(0,0,0,0.6);
+    background-position: center;
+}
+.card .inputvalue{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 10px ;
+}
+.card .inputvalue input{
+    width: 200px;
+    height: 30px;
+    padding: 5px;
+    outline: none;
+    border: none;
+}
+.card .inputvalue button{
+    width: 50px;
+    height: 30px;
+    border: none;
+    outline: none;
+    color: white;
+    background: black;
+    font-size: 16px;
+    cursor: pointer;
+}
+.card .card-image{
+    text-align: center;
+}
+.card .card-image img{
+    width: 150px;
+    height: 150px;
+}
+.card .temperature{
+    text-align: center;
+    font-weight: 700;
+}
+.card .city{
+    text-align: center;
+    font-size: 24px;
+    color: #000;
+    margin-top: 20px;
+}
+.card .item{
+    text-align: center;
+}
+.card .item .condition{
+    font-size: 30px;
+    color: wheat;
+    font-weight: 700;
+}
+.card .item  .speed{
+    font-size: 20px;
+    margin-top: 30px;
+    font-weight: 500;
+    color: whitesmoke;
+}
